@@ -58,3 +58,20 @@ main {
     -webkit-box-shadow: -10px 9px 21px -5px rgba(0,0,0,0.78);
     -moz-box-shadow: -10px 9px 21px -5px rgba(0,0,0,0.78);
 }
+
+.box:hover {
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+}
+
+.drop-box, .balance-box, .add-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bi {
+    color: green;''
+}
