@@ -9,6 +9,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: #f3eff5;
     flex-direction: column;
 }
 
@@ -38,7 +39,6 @@ ul {
 }
 
 h1, h2, h3 {
-    color: #1fcd59;
     cursor: pointer;
 }
 
@@ -49,8 +49,8 @@ h3 {
 }
 
 h3:hover {
-    background-color: #1fcd59;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 li {
@@ -60,12 +60,63 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 70vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60vh;
+}
+
+.info button {
+    width: 33%;
+    height: 5vh;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: white;
+    border-radius: 1rem;
+    background-color: black;
+}
+
+.info button:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+section h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+p {
+    margin: 2rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+aside {
+    width: 50%;
+    height: 60vh;
+}
+
+aside img {
+    width: 85%;
+    height: 100%;
 }
